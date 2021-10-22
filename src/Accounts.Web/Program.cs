@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Accounts.Web
+namespace ProgrammerGrammar.Accounts.Web
 {
     public static class Program
     {

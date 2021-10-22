@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Example.Web
+namespace ProgrammerGrammar.Example.Web
 {
     public class Program
     {

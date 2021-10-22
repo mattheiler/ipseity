@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace Example.Core.Abstractions
+namespace ProgrammerGrammar.Example.Core.Abstractions
 {
     public interface IExampleDbContext
     {

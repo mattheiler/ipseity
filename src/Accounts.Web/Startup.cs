@@ -1,7 +1,4 @@
 using System.Reflection;
-using Accounts.Core;
-using Accounts.Infrastructure;
-using Accounts.Infrastructure.Data;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Authentication;
@@ -12,8 +9,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ProgrammerGrammar.Accounts.Core;
+using ProgrammerGrammar.Accounts.Infrastructure;
+using ProgrammerGrammar.Accounts.Infrastructure.Data;
 
-namespace Accounts.Web
+namespace ProgrammerGrammar.Accounts.Web
 {
     public class Startup
     {

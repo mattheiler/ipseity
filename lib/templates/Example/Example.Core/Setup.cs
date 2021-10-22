@@ -1,11 +1,11 @@
 ﻿using System.Reflection;
-using Example.Core.Behaviors;
 using FluentValidation;
 using MediatR;
 using MediatR.Registration;
 using Microsoft.Extensions.DependencyInjection;
+using ProgrammerGrammar.Example.Core.Behaviors;
 
-namespace Example.Core
+namespace ProgrammerGrammar.Example.Core
 {
     public static class Setup
     {

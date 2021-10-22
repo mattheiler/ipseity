@@ -1,12 +1,12 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Accounts.Core.Commands.Roles.CreateRole;
 using AutoMapper;
 using FluentValidation;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Identity;
+using ProgrammerGrammar.Accounts.Core.Commands.Roles.CreateRole;
 
-namespace Accounts.Infrastructure.Commands.Roles.CreateRole
+namespace ProgrammerGrammar.Accounts.Infrastructure.Commands.Roles.CreateRole
 {
     public class CreateRoleCommandValidator : AbstractValidator<CreateRoleCommand>
     {

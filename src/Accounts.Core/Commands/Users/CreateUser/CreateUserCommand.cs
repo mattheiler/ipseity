@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Accounts.Core.Commands.Users.CreateUser
+namespace ProgrammerGrammar.Accounts.Core.Commands.Users.CreateUser
 {
     public class CreateUserCommand : IRequest
     {

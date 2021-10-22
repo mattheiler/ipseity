@@ -1,8 +1,8 @@
-﻿using Accounts.Core.Commands.Users.CreateUser;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
+using ProgrammerGrammar.Accounts.Core.Commands.Users.CreateUser;
 
-namespace Accounts.Infrastructure.Commands.Users.CreateUser
+namespace ProgrammerGrammar.Accounts.Infrastructure.Commands.Users.CreateUser
 {
     public class CreateUserCommandMapper : Profile
     {

@@ -1,7 +1,7 @@
-﻿using Accounts.Core.Commands.Users.CreateUser;
-using AutoMapper;
+﻿using AutoMapper;
+using ProgrammerGrammar.Accounts.Core.Commands.Users.CreateUser;
 
-namespace Accounts.Web.Models.Users
+namespace ProgrammerGrammar.Accounts.Web.Models.Users
 {
     [AutoMap(typeof(CreateUserCommand), ReverseMap = true)]
     public class CreateUserRequest

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Example.Web.Models.Apps;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using ProgrammerGrammar.Example.Web.Models.Apps;
 
-namespace Example.Web.Controllers
+namespace ProgrammerGrammar.Example.Web.Controllers
 {
     [ApiController]
     [Route("api/apps")]

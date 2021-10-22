@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Example.Core.Abstractions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
+using ProgrammerGrammar.Example.Core.Abstractions;
 
-namespace Example.Infrastructure.Data
+namespace ProgrammerGrammar.Example.Infrastructure.Data
 {
     public class ExampleDbContext : DbContext, IExampleDbContext
     {

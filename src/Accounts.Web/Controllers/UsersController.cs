@@ -1,12 +1,12 @@
 using System.Threading.Tasks;
-using Accounts.Core.Commands.Users.CreateUser;
-using Accounts.Web.Models.Users;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ProgrammerGrammar.Accounts.Core.Commands.Users.CreateUser;
+using ProgrammerGrammar.Accounts.Web.Models.Users;
 
-namespace Accounts.Web.Controllers
+namespace ProgrammerGrammar.Accounts.Web.Controllers
 {
     [Authorize]
     [ApiController]

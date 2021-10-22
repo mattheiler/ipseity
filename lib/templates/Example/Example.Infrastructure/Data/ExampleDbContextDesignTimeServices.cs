@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Example.Infrastructure.Data
+namespace ProgrammerGrammar.Example.Infrastructure.Data
 {
     public class ExampleDbContextDesignTimeServices : IDesignTimeServices
     {

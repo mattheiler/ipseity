@@ -1,4 +1,4 @@
-﻿namespace Accounts.Web.Models.Accounts
+﻿namespace ProgrammerGrammar.Accounts.Web.Models.Accounts
 {
     public class LoginRequest
     {

@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace Accounts.Core.Abstractions
+namespace ProgrammerGrammar.Accounts.Core.Abstractions
 {
     public interface IAccountsDbContext
     {

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace Example.Infrastructure.Data
+namespace ProgrammerGrammar.Example.Infrastructure.Data
 {
     public class ExampleDbContextDesignTimeFactory : IDesignTimeDbContextFactory<ExampleDbContext>
     {

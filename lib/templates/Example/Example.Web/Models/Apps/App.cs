@@ -1,4 +1,4 @@
-﻿namespace Example.Web.Models.Apps
+﻿namespace ProgrammerGrammar.Example.Web.Models.Apps
 {
     public class App
     {

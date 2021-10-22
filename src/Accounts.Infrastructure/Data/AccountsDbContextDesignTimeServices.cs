@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Accounts.Infrastructure.Data
+namespace ProgrammerGrammar.Accounts.Infrastructure.Data
 {
     public class AccountsDbContextDesignTimeServices : IDesignTimeServices
     {

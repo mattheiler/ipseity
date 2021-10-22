@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 
-namespace Accounts.Infrastructure.Data
+namespace ProgrammerGrammar.Accounts.Infrastructure.Data
 {
     public class AccountsDbContextDesignTimeFactory : IDesignTimeDbContextFactory<AccountsDbContext>
     {

@@ -1,12 +1,12 @@
 using System.Threading.Tasks;
-using Accounts.Core.Commands.Roles.CreateRole;
-using Accounts.Web.Models.Roles;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ProgrammerGrammar.Accounts.Core.Commands.Roles.CreateRole;
+using ProgrammerGrammar.Accounts.Web.Models.Roles;
 
-namespace Accounts.Web.Controllers
+namespace ProgrammerGrammar.Accounts.Web.Controllers
 {
     [Authorize]
     [ApiController]

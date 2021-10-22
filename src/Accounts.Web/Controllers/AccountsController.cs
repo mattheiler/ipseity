@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
-using Accounts.Web.Models.Accounts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using ProgrammerGrammar.Accounts.Web.Models.Accounts;
 
-namespace Accounts.Web.Controllers
+namespace ProgrammerGrammar.Accounts.Web.Controllers
 {
     [Authorize]
     [ApiController]

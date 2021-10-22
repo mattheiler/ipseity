@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>35f00b1d-2453-4329-8f16-9ea9f37a1678</UserSecretsId>
+    <RootNamespace>ProgrammerGrammar.Accounts.Infrastructure</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

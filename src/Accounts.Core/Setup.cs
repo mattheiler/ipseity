@@ -1,11 +1,11 @@
 ﻿using System.Reflection;
-using Accounts.Core.Behaviors;
 using FluentValidation;
 using MediatR;
 using MediatR.Registration;
 using Microsoft.Extensions.DependencyInjection;
+using ProgrammerGrammar.Accounts.Core.Behaviors;
 
-namespace Accounts.Core
+namespace ProgrammerGrammar.Accounts.Core
 {
     public static class Setup
     {

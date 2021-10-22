@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Accounts.Core.Abstractions;
 using IdentityServer4.EntityFramework.Entities;
 using IdentityServer4.EntityFramework.Extensions;
 using IdentityServer4.EntityFramework.Interfaces;
@@ -11,8 +10,9 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Options;
+using ProgrammerGrammar.Accounts.Core.Abstractions;
 
-namespace Accounts.Infrastructure.Data
+namespace ProgrammerGrammar.Accounts.Infrastructure.Data
 {
     public class AccountsDbContext : IdentityDbContext, IDataProtectionKeyContext, IPersistedGrantDbContext, IAccountsDbContext
     {

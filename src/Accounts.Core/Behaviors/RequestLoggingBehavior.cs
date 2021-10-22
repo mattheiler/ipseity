@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace Accounts.Core.Behaviors
+namespace ProgrammerGrammar.Accounts.Core.Behaviors
 {
     public class RequestLoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {

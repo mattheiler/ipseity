@@ -1,7 +1,5 @@
 using System.Reflection;
 using AutoMapper;
-using Example.Core;
-using Example.Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -9,8 +7,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ProgrammerGrammar.Example.Core;
+using ProgrammerGrammar.Example.Infrastructure;
 
-namespace Example.Web
+namespace ProgrammerGrammar.Example.Web
 {
     public class Startup
     {

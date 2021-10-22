@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Accounts.Core.Commands.Roles.CreateRole
+namespace ProgrammerGrammar.Accounts.Core.Commands.Roles.CreateRole
 {
     public class CreateRoleCommand : IRequest
     {

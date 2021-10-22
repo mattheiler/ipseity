@@ -1,13 +1,13 @@
 ﻿using System.Reflection;
-using Accounts.Core.Abstractions;
-using Accounts.Infrastructure.Data;
 using FluentValidation;
 using MediatR.Registration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ProgrammerGrammar.Accounts.Core.Abstractions;
+using ProgrammerGrammar.Accounts.Infrastructure.Data;
 
-namespace Accounts.Infrastructure
+namespace ProgrammerGrammar.Accounts.Infrastructure
 {
     public static class Setup
     {

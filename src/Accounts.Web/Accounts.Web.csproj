@@ -7,6 +7,8 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <AssemblyName>Accounts.Web</AssemblyName>
+    <RootNamespace>ProgrammerGrammar.Accounts.Web</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

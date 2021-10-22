@@ -1,8 +1,8 @@
-﻿using Accounts.Core.Commands.Roles.CreateRole;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
+using ProgrammerGrammar.Accounts.Core.Commands.Roles.CreateRole;
 
-namespace Accounts.Infrastructure.Commands.Roles.CreateRole
+namespace ProgrammerGrammar.Accounts.Infrastructure.Commands.Roles.CreateRole
 {
     public class CreateRoleCommandMapper : Profile
     {
