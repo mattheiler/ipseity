@@ -1,9 +1,0 @@
-version: '3.4'
-
-services:
-  raspylake.web:
-    image: ${DOCKER_REGISTRY-}raspylakeweb
-    container_name: RaspyLake.Web
-    build:
-      context: .
-      dockerfile: RaspyLake.Web/Dockerfile
