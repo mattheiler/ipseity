@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Matt Heiler",
+  "classifications": [ "Wispy Waterfall", "Web", "C#" ],
+  "name": "Wispy Waterfall",
+  "identity": "ProgrammarGrammar.WispyWaterfall",
+  "groupIdentity": "ProgrammarGrammar.WispyWaterfall.Solution",
+  "shortName": "wispywaterfall",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "WispyWaterfall",
+  "symbols": {
+    "devWebHttp": {
+      "type": "generated",
+      "generator": "port",
+      "replaces": "11111"
+    },
+    "devWebAppDevServer": {
+      "type": "generated",
+      "generator": "port",
+      "replaces": "22222"
+    },
+    "devWebAppHotReload": {
+      "type": "generated",
+      "generator": "port",
+      "replaces": "33333"
+    }
+  }
+}

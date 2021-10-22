@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  wispywaterfall.web:
+    image: ${DOCKER_REGISTRY-}wispywaterfallweb
+    container_name: WispyWaterfall.Web
+    build:
+      context: .
+      dockerfile: WispyWaterfall.Web/Dockerfile

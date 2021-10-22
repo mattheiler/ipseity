@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  example.web:
-    image: ${DOCKER_REGISTRY-}exampleweb
-    build:
-      context: .
-      dockerfile: Example.Web/Dockerfile
