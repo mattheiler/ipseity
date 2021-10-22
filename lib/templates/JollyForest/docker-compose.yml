@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  jollyforest.web:
+    image: ${DOCKER_REGISTRY-}jollyforestweb
+    container_name: JollyForest.Web
+    build:
+      context: .
+      dockerfile: JollyForest.Web/Dockerfile

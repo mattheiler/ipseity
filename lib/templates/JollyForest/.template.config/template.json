@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Matt Heiler",
+  "classifications": [ "Jolly Forest", "Web", "C#" ],
+  "name": "Jolly Forest",
+  "identity": "ProgrammarGrammar.JollyForest",
+  "groupIdentity": "ProgrammarGrammar.JollyForest.Solution",
+  "shortName": "jollyforest",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "JollyForest",
+  "symbols": {
+    "devWebHttp": {
+      "type": "generated",
+      "generator": "port",
+      "replaces": "11111"
+    },
+    "devWebAppDevServer": {
+      "type": "generated",
+      "generator": "port",
+      "replaces": "22222"
+    },
+    "devWebAppHotReload": {
+      "type": "generated",
+      "generator": "port",
+      "replaces": "33333"
+    }
+  }
+}

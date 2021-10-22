@@ -97,7 +97,7 @@ namespace ProgrammerGrammar.Accounts.Web
                 spa.Options.SourcePath = "./";
 
                 if (env.IsDevelopment())
-                    spa.UseProxyToSpaDevelopmentServer("http://Accounts.webapp:4200");
+                    spa.UseProxyToSpaDevelopmentServer("http://accounts.webapp:4200");
             });
         }
     }

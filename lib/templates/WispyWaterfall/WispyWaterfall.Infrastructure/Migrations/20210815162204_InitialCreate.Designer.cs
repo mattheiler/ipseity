@@ -9,7 +9,7 @@ using ProgrammerGrammar.WispyWaterfall.Infrastructure.Data;
 
 namespace WispyWaterfall.Infrastructure.Migrations
 {
-    [DbContext(typeof(ExampleDbContext))]
+    [DbContext(typeof(WispyWaterfallDbContext))]
     [Migration("20210815162204_InitialCreate")]
     partial class InitialCreate
     {

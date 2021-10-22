@@ -5,22 +5,22 @@ using Microsoft.Extensions.Configuration;
 
 namespace ProgrammerGrammar.WispyWaterfall.Infrastructure.Data
 {
-    public class ExampleDbContextDesignTimeFactory : IDesignTimeDbContextFactory<ExampleDbContext>
+    public class WispyWaterfallDbContextDesignTimeFactory : IDesignTimeDbContextFactory<WispyWaterfallDbContext>
     {
-        public ExampleDbContext CreateDbContext(string[] args)
+        public WispyWaterfallDbContext CreateDbContext(string[] args)
         {
             var configuration =
                 new ConfigurationBuilder()
                     .SetBasePath(Directory.GetCurrentDirectory())
                     .AddJsonFile("appsettings.json")
                     .AddEnvironmentVariables()
-                    .AddUserSecrets<ExampleDbContextDesignTimeFactory>(true)
+                    .AddUserSecrets<WispyWaterfallDbContextDesignTimeFactory>(true)
                     .Build();
             var options =
-                new DbContextOptionsBuilder<ExampleDbContext>()
+                new DbContextOptionsBuilder<WispyWaterfallDbContext>()
                     .UseSqlServer(configuration.GetConnectionString("WispyWaterfall"))
                     .Options;
-            return new ExampleDbContext(options);
+            return new WispyWaterfallDbContext(options);
         }
     }
 }

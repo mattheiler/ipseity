@@ -18,8 +18,8 @@ namespace ProgrammerGrammar.WispyWaterfall.Infrastructure
             AssemblyScanner.FindValidatorsInAssembly(Assembly.GetExecutingAssembly()).ForEach(item => services.AddTransient(item.InterfaceType, item.ValidatorType));
 
             services
-                .AddDbContext<ExampleDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("WispyWaterfall")))
-                .AddTransient<IExampleDbContext, ExampleDbContext>(provider => provider.GetService<ExampleDbContext>());
+                .AddDbContext<WispyWaterfallDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("WispyWaterfall")))
+                .AddTransient<IWispyWaterfallDbContext, WispyWaterfallDbContext>(provider => provider.GetService<WispyWaterfallDbContext>());
 
             return services;
         }

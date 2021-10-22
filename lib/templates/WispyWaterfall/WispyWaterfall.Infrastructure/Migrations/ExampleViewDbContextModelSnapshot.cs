@@ -8,8 +8,8 @@ using ProgrammerGrammar.WispyWaterfall.Infrastructure.Data;
 
 namespace WispyWaterfall.Infrastructure.Migrations
 {
-    [DbContext(typeof(ExampleDbContext))]
-    partial class ExampleDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(WispyWaterfallDbContext))]
+    partial class WispyWaterfallDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

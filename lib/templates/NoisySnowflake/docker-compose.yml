@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  noisysnowflake.web:
+    image: ${DOCKER_REGISTRY-}noisysnowflakeweb
+    container_name: NoisySnowflake.Web
+    build:
+      context: .
+      dockerfile: NoisySnowflake.Web/Dockerfile

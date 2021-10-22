@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  raspylake.web:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - 11111:80
+  raspylake.webapp:
+    image: ${DOCKER_REGISTRY-}raspylakewebapp
+    container_name: RaspyLake.WebApp
+    build:
+      context: ./RaspyLake.Web/App
+    ports:
+      - 22222:4200
+      - 33333:49153
+    volumes:
+      - ./RaspyLake.Web/App/src:/app/src
+      - ./RaspyLake.Web/App/lib:/app/lib

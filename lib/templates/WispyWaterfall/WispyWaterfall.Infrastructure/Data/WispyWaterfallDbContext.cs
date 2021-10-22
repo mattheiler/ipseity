@@ -7,9 +7,9 @@ using ProgrammerGrammar.WispyWaterfall.Core.Abstractions;
 
 namespace ProgrammerGrammar.WispyWaterfall.Infrastructure.Data
 {
-    public class ExampleDbContext : DbContext, IExampleDbContext
+    public class WispyWaterfallDbContext : DbContext, IWispyWaterfallDbContext
     {
-        public ExampleDbContext(DbContextOptions<ExampleDbContext> options)
+        public WispyWaterfallDbContext(DbContextOptions<WispyWaterfallDbContext> options)
             : base(options)
         {
         }

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 
 namespace ProgrammerGrammar.WispyWaterfall.Core.Abstractions
 {
-    public interface IExampleDbContext
+    public interface IWispyWaterfallDbContext
     {
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 

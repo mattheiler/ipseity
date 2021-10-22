@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace ProgrammerGrammar.WispyWaterfall.Infrastructure.Data
 {
-    public class ExampleDbContextDesignTimeServices : IDesignTimeServices
+    public class WispyWaterfallDbContextDesignTimeServices : IDesignTimeServices
     {
         public void ConfigureDesignTimeServices(IServiceCollection services)
         {
