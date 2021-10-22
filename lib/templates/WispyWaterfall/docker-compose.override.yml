@@ -18,3 +18,8 @@ services:
     volumes:
       - ./WispyWaterfall.Web/App/src:/app/src
       - ./WispyWaterfall.Web/App/lib:/app/lib
+  wispywaterfall.db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
