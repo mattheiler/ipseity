@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  example.web:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - 11111:80
+    networks:
+      - identities
+  example.webapp:
+    image: ${DOCKER_REGISTRY-}examplewebapp
+    container_name: Example.WebApp
+    build:
+      context: ./Example.Web/App
+    ports:
+      - 22222:4200
+      - 33333:49153
+    volumes:
+      - ./Example.Web/App/src:/app/src
+      - ./Example.Web/App/lib:/app/lib
+    networks:
+      - identities
+networks:
+  identities:
+    external: true

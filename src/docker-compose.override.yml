@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  accounts.web:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - 16081:80
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+  accounts.webapp:
+    image: ${DOCKER_REGISTRY-}accountswebapp
+    container_name: Accounts.WebApp
+    build:
+      context: ./Accounts.Web/App
+    ports:
+      - 35639:4200
+      - 23007:49153
+    volumes:
+      - ./Accounts.Web/App/src:/app/src
+      - ./Accounts.Web/App/lib:/app/lib
