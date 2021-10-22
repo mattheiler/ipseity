@@ -25,7 +25,7 @@ namespace ProgrammerGrammar.WispyWaterfall.Core.Behaviors
             _timer.Stop();
 
             if (_timer.ElapsedMilliseconds > 500)
-                _logger.LogWarning("Long-running request: {Name} ({ElapsedMilliseconds} milliseconds) {@Request}", typeof(TRequest).Name, _timer.ElapsedMilliseconds, request);
+                _logger.LogWarning("Long-running request: {Name} ({ElapsedMilliseconds} milliseconds) {request}", typeof(TRequest).Name, _timer.ElapsedMilliseconds, request);
 
             return response;
         }
